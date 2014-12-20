@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link href="https://s3.amazonaws.com/codiqa-cdn/codiqa.ext.css" rel="stylesheet">
+  <link href="https://s3.amazonaws.com/codiqa-cdn/mobile/1.4.2/jquery.mobile-1.4.2.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://s3.amazonaws.com/codiqa-cdn/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <script src="https://s3.amazonaws.com/codiqa-cdn/codiqa.ext.js"></script>
+
+  <script src="script.js"></script>
+
+</head>
+<body>
+<div data-role="page" data-control-title="Home" id="page1">
+    <div data-theme="a" data-role="header">
+        <h1 class="ui-title">
+            Test Cases
+        </h1>
+        <a href="#page1" class="ui-btn ui-btn-right">
+            Edit Current Case
+        </a>
+        <a href="#page1" class="ui-btn ui-btn-left">
+            Create New Case
+        </a>
+    </div>
+    <div role="main" class="ui-content">
+        <div class="split-wrapper">
+            <div class="content-secondary">
+                <div class="ui-field-contain" data-controltype="searchinput">
+                    <input name="" id="searchinput1" placeholder="Search For Cases" value=""
+                    type="search">
+                </div>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>
+                            JSS
+                        </h3>
+                        <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                            <li data-role="list-divider" role="heading">
+                                Tests
+                            </li>
+                            <li data-theme="a">
+                                <a href="#page1" data-transition="slide">
+                                    JSS Clean Install on Linux
+                                </a>
+                            </li>
+                            <li data-theme="a">
+                                <a href="#page1" data-transition="slide">
+                                    JSS Clean Install on OSX
+                                </a>
+                            </li>
+                            <li data-theme="a">
+                                <a href="#page1" data-transition="slide">
+                                    JSS Clean Install on Winblows
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible">
+                        <h3>
+                            iOS Self Service
+                        </h3>
+                        <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                            <li data-role="list-divider" role="heading">
+                                Tests
+                            </li>
+                            <li data-theme="a">
+                                <a href="#page1" data-transition="slide">
+                                    Self Service App Can Be Deployed
+                                </a>
+                            </li>
+                            <li data-theme="a">
+                                <a href="#page1" data-transition="slide">
+                                    Self Service Web App Can Be Deployed
+                                </a>
+                            </li>
+                            <li data-theme="a">
+                                <a href="#page1" data-transition="slide">
+                                    Push Managed Apps Via Self Service
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content-primary">
+                <h3>
+                    Sceanrio Name
+                </h3>
+                <div class="split-wrapper">
+                    <div class="content-secondary">
+                        <div data-controltype="textblock">
+                            <p>
+                                <b>
+                                    Envirment Specifics
+                                </b>
+                            </p>
+                            <p>
+                                Linux Ubunut 14.04
+                            </p>
+                            <p>
+                                <strong>
+                                    Attachments
+                                </strong>
+                            </p>
+                            <p>
+                                Link To Linux DMG?
+                            </p>
+                            <p>
+                                <strong>
+                                    Screenshots
+                                </strong>
+                            </p>
+                            <p>
+                                If Relavant Attach Screens
+                            </p>
+                        </div>
+                        <h3>
+                            Defect History
+                        </h3>
+                        <div data-controltype="textblock">
+                            <p>
+                                Defect History listed here
+                            </p>
+                        </div>
+                        <h3>
+                            List Things Like:
+                        </h3>
+                        <div data-controltype="textblock">
+                            <p>
+                                Date Created
+                            </p>
+                            <p>
+                                Date Modified
+                            </p>
+                            <p>
+                                Created By
+                            </p>
+                            <p>
+                                Modified By
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-primary">
+                        <h3>
+                            Steps
+                        </h3>
+                        <div data-controltype="textblock">
+                            <ol>
+                                <li>
+                                    <b>
+                                        Very
+                                    </b>
+                                </li>
+                                <li>
+                                    <b>
+                                        Detailed
+                                    </b>
+                                </li>
+                                <li>
+                                    <b>
+                                        Setup
+                                    </b>
+                                </li>
+                                <li>
+                                    <b>
+                                        Steps
+                                    </b>
+                                </li>
+                                <li>
+                                    <b>
+                                        And
+                                    </b>
+                                </li>
+                                <li>
+                                    <b>
+                                        How
+                                    </b>
+                                </li>
+                                <li>
+                                    <b>
+                                        To Work
+                                    </b>
+                                </li>
+                                <li>
+                                    <b>
+                                        Everything
+                                    </b>
+                                </li>
+                            </ol>
+                        </div>
+                        <h3>
+                            Expected Results
+                        </h3>
+                        <div data-controltype="textblock">
+                            <p>
+                                This is what should happen.
+                            </p>
+                        </div>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                                <a href="#page1" class="ui-btn ">
+                                    Upload New File
+                                </a>
+                            </div>
+                            <div class="ui-block-b">
+                                <a href="#page1" class="ui-btn ">
+                                    Start Testing
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#page1" class="ui-btn ">
+                            View User Testing History
+                        </a>
+                    </div>
+                    <h3>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Test Cases
+                </a>
+            </li>
+            <li>
+                <a href="#page2" data-transition="fade" data-theme="" data-icon="star">
+                    Build Testing Plan
+                </a>
+            </li>
+            <li>
+                <a href="#page3" data-transition="fade" data-theme="" data-icon="alert">
+                    Assigned To Me
+                </a>
+            </li>
+            <li>
+                <a href="#page4" data-transition="fade" data-theme="" data-icon="info">
+                    Account
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="Build Plans" id="page2">
+    <div data-theme="a" data-role="header">
+        <h1 class="ui-title">
+            Test Cases
+        </h1>
+    </div>
+    <div role="main" class="ui-content">
+        <div class="split-wrapper">
+            <div class="content-secondary">
+                <h3>
+                    Current Tests
+                </h3>
+                <div class="ui-field-contain" data-controltype="searchinput">
+                    <input name="" id="searchinput5" placeholder="Search for a Test" value=""
+                    type="search">
+                </div>
+                <input type="submit" data-icon="plus" data-iconpos="right" value="iOS Self Service Tests">
+                <input type="submit" data-icon="plus" data-iconpos="right" value="OSX Self Service Tests">
+                <input type="submit" data-icon="plus" data-iconpos="right" value="BYOD Tests">
+                <input type="submit" data-icon="plus" data-iconpos="right" value="iBeacon Tests">
+                <input type="submit" data-icon="plus" data-iconpos="right" value="Localization Tests">
+            </div>
+            <div class="content-primary">
+                <h3>
+                    Current Testing Plan
+                </h3>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>
+                            9.64 Release Testing
+                        </h3>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                                <a href="#page2" data-icon="minus" data-iconpos="right" class="ui-btn  ui-icon-minus ui-btn-icon-right">
+                                    Mac Enrollment Tests
+                                </a>
+                            </div>
+                            <div class="ui-block-b">
+                                <div class="ui-grid-a">
+                                    <div class="ui-block-a">
+                                        <input type="submit" value="Assign To">
+                                    </div>
+                                    <div class="ui-block-b">
+                                        <input type="submit" value="Set Due Date">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-controltype="textblock">
+                            <p>
+                                <b>
+                                    Above fields can be added from the buttons on the left.&nbsp;
+                                </b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Test Cases
+                </a>
+            </li>
+            <li>
+                <a href="#page2" data-transition="fade" data-theme="" data-icon="star">
+                    Build Testing Plan
+                </a>
+            </li>
+            <li>
+                <a href="#page3" data-transition="fade" data-theme="" data-icon="alert">
+                    Assigned To Me
+                </a>
+            </li>
+            <li>
+                <a href="#page4" data-transition="fade" data-theme="" data-icon="info">
+                    Account
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="Assigned" id="page3">
+    <div data-theme="a" data-role="header">
+        <h1 class="ui-title">
+            Test Cases
+        </h1>
+    </div>
+    <div role="main" class="ui-content">
+        <h3>
+            This is where you can view and complete all of the tests assigned to a
+            user
+        </h3>
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Test Cases
+                </a>
+            </li>
+            <li>
+                <a href="#page2" data-transition="fade" data-theme="" data-icon="star">
+                    Build Testing Plan
+                </a>
+            </li>
+            <li>
+                <a href="#page3" data-transition="fade" data-theme="" data-icon="alert">
+                    Assigned To Me
+                </a>
+            </li>
+            <li>
+                <a href="#page4" data-transition="fade" data-theme="" data-icon="info">
+                    Account
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div data-role="page" data-control-title="Account" id="page4">
+    <div data-theme="a" data-role="header">
+        <h1 class="ui-title">
+            Test Cases
+        </h1>
+    </div>
+    <div role="main" class="ui-content">
+    </div>
+    <div data-role="tabbar" data-iconpos="top" data-theme="a">
+        <ul>
+            <li>
+                <a href="#page1" data-transition="fade" data-theme="" data-icon="home">
+                    Test Cases
+                </a>
+            </li>
+            <li>
+                <a href="#page2" data-transition="fade" data-theme="" data-icon="star">
+                    Build Testing Plan
+                </a>
+            </li>
+            <li>
+                <a href="#page3" data-transition="fade" data-theme="" data-icon="alert">
+                    Assigned To Me
+                </a>
+            </li>
+            <li>
+                <a href="#page4" data-transition="fade" data-theme="" data-icon="info">
+                    Account
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
